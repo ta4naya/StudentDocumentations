@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/Enrollment"
+            android:icon="@drawable/ic_school_black_enrollment"
+            android:title="Enrollment" />
+        <item
+            android:id="@+id/nav_Rathaus_Reg"
+            android:icon="@drawable/ic_domain_black_rathaus"
+            android:title="Rathaus Registration" />
+        <item
+            android:id="@+id/Bank_Application"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Bank Application" />
+        <item
+            android:id="@+id/visa_office"
+            android:icon="@drawable/ic_device_hub_visa"
+            android:title="Visa Office" />
+    </group>
+
+    <item android:title="Students Activities">
+        <menu>
+            <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Latest Events" />
+            <item
+                android:id="@+id/nav_mensa"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mensa Menu" />
+        </menu>
+    </item>
+
+</menu>
